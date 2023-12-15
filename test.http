@@ -1,0 +1,13 @@
+GET http://localhost:7077/works HTTP/1.1
+
+####
+
+POST http://localhost:7077/works/create HTTP/1.1
+Content-Type: application/json
+
+{
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3JLI1EY2MCt5t9zrFCpKoG7vfRJ6xAQHdfg&usqp=CAU",
+    "title": "Coming Soon ",
+    "description" : "Working progress",
+    "source": "Samuele Bagorha "
+}
