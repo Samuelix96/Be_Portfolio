@@ -11,3 +11,13 @@ Content-Type: application/json
     "description" : "Working progress",
     "source": "Samuele Bagorha "
 }
+####
+
+####
+PATCH http://localhost:7077/works/update/657c82e1b19a075461fc8a89 HTTP/1.1
+Content-Type: application/json
+
+{
+   
+    "source": "https://katanstory-lerosamuele.netlify.app"
+}
